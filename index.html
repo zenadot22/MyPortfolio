@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/206b3bb72f.js" crossorigin="anonymous"></script>
+
+        <title>My Profile</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Zenande Dotwana</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Zenande</span><br> Junior Full Stack Developer</h1>
+
+                    <a href="#work" class="button">View My work</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/zenande-dotwana/" rel='noopener noreferrer' target="blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/zenadot22" rel='noopener noreferrer' target="blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/2021-removebg-preview.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Zenande</h2>
+                        <p class="about__text">“I am a creative, committed and business-minded individual, an aspiring Junior Web Developer with a passion for e-commerce. I am seeking to advance my digital skills and pursue a career as a Full Stack developer.”<br>
+                            <br><strong>EDUCATION:</strong> went to the CENTRE OF SCIENCE AND TECHNOLOGY
+                             (COSAT), that is where I finished my matric -2016 and where I grew passion for programming.<br>
+                            <br> <strong>WORK:</strong> UCT's School Improvement Initiative (SII) <br><strong>Period:</strong> 3 years<br> <strong>Role:</strong> Mentor<br> <strong>Duties:</strong> • Assisting students with their homework afterschool 
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text"></p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                              <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                            
+                                
+                                <span class="skills__name"> <p>Python</p></span>
+                            </div>
+                            <div class="skills__bar skills__python">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                             <span class="skills__name">Javascript</span>
+                            </div>
+                            <div class="skills__bar skills__javascript">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="testi-section" >       
+                <h2 class="section-title">Testimonials</h2>
+                <!-- Carousel -->
+             <div id="carousel">
+             <!-- Carousel Container -->
+               <div id="carousel-container"></div>
+                <!-- Carousel Bullets -->
+              <div id="carousel-bullets"></div>
+               <!-- Carousel Buttons -->
+                <button id="carousel-left" onclick="changeSlide(-1)">
+              <i class="fas fa-angle-left"></i>
+               </button>
+               <button id="carousel-right" onclick="changeSlide(1)">
+               <i class="fas fa-angle-right"></i>
+             </button>
+
+
+            </section>
+
+
+
+
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                    <a target="_blank" href="https://replit.com/join/ogcwjlfe-zenanded"><img src="assets/img/databases.png" alt="">
+                    </a>
+                    </div>
+                    <div class="work__img">
+                      <a target="_blank" href="https://replit.com/join/zvmqrvlb-zenanded"><img src="assets/img/project1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="work__img">
+                    <a  target="_blank" href="https://replit.com/join/eiofcmbs-zenanded" ><img src="assets/img/project2.png" alt="">
+                    </a>
+                    </div>
+                    <div class="work__img">
+                    <a target="_blank" href="https://replit.com/join/cyaignbl-zenanded"><img src="assets/img/project4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                     <a target="_blank" href="https://replit.com/join/yocxagxm-zenanded"><img src="assets/img/Swegga.png" alt="">
+                    </a>
+                    </div>
+                    <div class="work__img">
+                    <a target="_blank" href="https://replit.com/join/ntrfkfzq-zenanded" ><img src="assets/img/musicapp.png" alt=""></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/moqpgrpa" method="POST" data-netlify="true" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Zenande</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/help/community/profile/?uid=100007762680864" rel='noopener noreferrer' target="blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/zen_dotwana/" rel='noopener noreferrer' target="blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/corousel.js"></script>
+    </body>
+</html>
