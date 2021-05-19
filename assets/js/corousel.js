@@ -31,7 +31,7 @@ let slideContent = [
     title: "Masande Gontyeleni",
     subtitle: "Colleague",
     description:
-      "She is very professional , even though I have known her for a short period of time.She is very helpful , exceptional and willing to work at any given time.",
+      "She is very professional, even though I have known her for a short period of time.She is very helpful, exceptional and willing to work at any given time.",
     image: "assets/img/masande.png"
   },
 

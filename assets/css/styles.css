@@ -170,15 +170,15 @@ img{
 }
 
 /*Active menu*/
-.active::after{
+/* .active::after{
   position: absolute;
   content: "";
-  width: 100%;
+  width: 0%;
   height: 0.18rem;
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
-}
+} */
 
 /*=== Show menu ===*/
 .show{
@@ -302,6 +302,19 @@ img{
 .skills__javascript{
   width: 45%;
 }
+.skills__mysql{
+  width: 85%;
+}
+.skills__ax{
+  width: 85%;
+}
+.skills__flask{
+  width: 85%;
+}
+.skills__wp{
+  width: 90%;
+}
+
 .skills__img{
   border-radius: .5rem;
 }
